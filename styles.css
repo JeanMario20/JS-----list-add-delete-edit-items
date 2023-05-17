@@ -1,0 +1,20 @@
+*{
+    background-color: rgb(188, 206, 245);
+}
+.grocery-container {
+    visibility: hidden;
+}
+
+.show-container {
+    visibility: visible;
+}
+
+.alert-danger{
+    color: #721c24;
+    background: #f8d7da;
+}
+
+.alert-success {
+    color: #155724;
+    background: white;
+}
