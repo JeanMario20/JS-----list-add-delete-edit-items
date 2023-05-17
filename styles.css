@@ -1,6 +1,48 @@
-*{
+
+
+body{
     background-color: rgb(188, 206, 245);
 }
+
+.section-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    margin: 10% 25% 0 25%;
+    border-radius: 1%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.grocery-form {
+    width: 80%;
+}
+
+.grocery-form p{
+    /* ? span of item added or deleted to the list   */
+    position: absolute;
+    text-align: center;
+    background-color: green;
+    padding: 0 14% ;
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.form-control input {
+    width: 80%;
+}
+
+.form-control button {
+    font-size: 15px;
+}
+
+
 .grocery-container {
     visibility: hidden;
 }
@@ -16,5 +58,6 @@
 
 .alert-success {
     color: #155724;
+    padding: 0 14% ;
     background: white;
 }
