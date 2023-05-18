@@ -175,10 +175,10 @@ function createListItem(id,value){
             `<p class="tittle">${value}</p>
                 <div class="btn-container">
             <button type="button" class="edit-btn">
-                <i class="fas fa-edit">d</i>
+                <i class="lar la-edit"></i>
             </button>
             <button type="button" class="delete-btn">
-                <i class="fas fa-trash">d</i>
+                <i class="las la-trash-alt"></i>
             </button>
         </div>`;
         const deleteBtn = element.querySelector('.delete-btn');
