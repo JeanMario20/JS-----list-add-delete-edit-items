@@ -8,7 +8,7 @@ const list = document.querySelector('.grocery-list');
 const clearBtn = document.querySelector('.clear-btn');
 
 // ------------------ edit opcion
-let editElement;
+let editElement = "";
 let editFlag = false;
 let editID = "";
 
@@ -36,7 +36,6 @@ function addItem(e){
         container.classList.add("show-container");
         //add to local storage
         addToLocalStorage(id,value);
-        
         //Set back to default
         setBackToDefault();
     }
@@ -82,7 +81,7 @@ function clearItems(){
 function deleteItem(e){
     const element = e.currentTarget.parentElement.parentElement;
     const id = element.dataset.id;
-    list.removeChild(Element);
+    list.removeChild(element);
     if(list.children.length === 0){
         container.classList.remove("show-container");
     }
@@ -92,7 +91,7 @@ function deleteItem(e){
     removeFromLocalStorage(id);
 }
 //edit function
-function editElement1(){
+function editElement1(e){
     const element = e.currentTarget.parentElement.parentElement;
     //set edit item
     editElement1 = e.currentTarget.parentElement.previousElementSibling;
