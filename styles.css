@@ -79,3 +79,51 @@ body{
     padding: 0 14% ;
     background: white;
 }
+
+@media (max-width: 1320px){
+    .grocery-item .tittle {
+        font-size: 30px;
+        margin-right: 300px;
+        margin-bottom: 20px;
+    }
+
+    .clear-btn {
+        left: 40%;
+    }
+    
+}
+
+@media (max-width: 1100px) {
+    .grocery-item .tittle {
+        font-size: 30px;
+        margin-right: 200px;
+        margin-bottom: 20px;
+    }
+
+    .clear-btn {
+        left: 36%;
+    }
+}
+
+@media (max-width: 900px){
+    .grocery-item .tittle {
+        font-size: 30px;
+        margin-right: 30%;
+        margin-bottom: 20px;
+    }
+
+    .btn-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .edit-btn {
+        margin-right: 5px
+    }
+
+    .clear-btn {
+        left: 20%;
+    }
+    
+}
+
